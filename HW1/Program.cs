@@ -1,10 +1,9 @@
-﻿internal class Program
+using System;
+
+class Program
 {
-    
-    private static void Main(string[] args)
+    static void Main()
     {
-        MyDate md1 = new MyDate(DateTime.Now.Day,DateTime.Now.Month, DateTime.Now.Year);
-        Console.WriteLine("{0}/{1}/{2}",md1.Day,md1.Month,md1.Year);
-        Console.ReadKey();
+        Console.WriteLine("NGUYỄN TIẾN DŨNG\t12424008\t12424TN\tntdung2703\tntdung270306@gmail.com");
     }
 }
